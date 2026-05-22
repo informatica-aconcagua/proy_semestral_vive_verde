@@ -1,5 +1,3 @@
-from email.policy import default
-from turtle import color
 from django.db import models
 
 # Create your models here.
