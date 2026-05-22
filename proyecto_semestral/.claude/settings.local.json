@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\python.exe\" --version)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\pip.exe\" list 2>&1 | Select-Object -First 40)",
+      "PowerShell(py *)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\pip.exe\" install Django==4.2.21 djangorestframework==3.15.2 \"django-crispy-forms==2.3\" python-decouple==3.8 sqlparse 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\pip.exe\" install mysqlclient==2.2.7 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\pip.exe\" install PyMySQL cryptography 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\pip.exe\" install crispy-bootstrap4 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\projects\\\\proy_semestral_vive_verde\\\\proyecto_semestral\\\\env\\\\Scripts\\\\pip.exe\" list 2>&1)"
+    ]
+  }
+}
